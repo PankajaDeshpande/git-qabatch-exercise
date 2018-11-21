@@ -23,4 +23,8 @@ public class HeaderSearch extends Pages {
 	public String getSearchString(){
 		return getTestData("search.string");
 	}
+	public void signUP(String loginname, String password ){
+	
+		driver.findElement(By.linkText("SignUp")).click();
+}
 }
